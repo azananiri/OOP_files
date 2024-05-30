@@ -7,8 +7,4 @@ public class GrayCell extends Cell implements CellFunction {
   public void cellFunction(Player player) {
     player.changeFuel(-super.getValue());
   };
-
-  public int getValue() {
-    return this.cellValue;
-  }
 }
